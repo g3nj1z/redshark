@@ -1,6 +1,6 @@
 # Redshark
 
-This Bash script automates the extraction of multiple TCP streams from a PCAP file based on a specified TCP port using `tshark`, the command-line version of Wireshark.
+Redshark creates and automates the extraction of multiple TCP streams from a PCAP file. It creates a directory named `tcp_streams_<port>` containing individual ASCII files for each TCP stream found on the specified port using `tshark`, the command-line version of Wireshark.
 
 ## Features
 
