@@ -22,7 +22,12 @@ Redshark creates and automates the extraction of multiple TCP streams from a PCA
    ```bash
    chmod +x redshark.sh
 
-3. Run the command by using `./redshark.sh <pcap file>.pcap <port>`
+3. Run the command by using
+   ```bash
+   ./redshark.sh <pcap file>.pcap <port>
+   ```
+## Example
+
    ```bash
    ./redshark.sh capture.pcap 445
    ```
