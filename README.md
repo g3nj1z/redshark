@@ -23,8 +23,8 @@ This Bash script automates the extraction of multiple TCP streams from a PCAP fi
    chmod +x redshark.sh
 
 Example
-```bash
-./redshark.sh capture.pcap 445
-```
+   ```bash
+   ./redshark.sh capture.pcap 445
+   ```
 
 This command will extract TCP streams using port 445 (SMB) from capture.pcap and save each stream as stream_<number>.txt in the directory tcp_streams_445.
